@@ -1,6 +1,6 @@
 console.log("Welcome to Sargam");
 let songIndex = 0;
-let audioElement = new Audio('songs/1.mp3');
+let audioElement = new Audio('englishSongs/Fairytale.mp3');
 let masterPlay = document.getElementById('masterPlay');
 let myProgressBar = document.getElementById('myProgressBar');
 let gif = document.getElementById('gif');
@@ -8,16 +8,16 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Warriyo - Mortals [NCS Release]", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
-    {songName: "Cielo - Huma-Huma", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
-    {songName: "DEAF KEV - Invincible [NCS Release]-320k", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
-    {songName: "Different Heaven & EH!DE - My Heart [NCS Release]", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
-    {songName: "Janji-Heroes-Tonight-feat-Johnning-NCS-Release", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
-    {songName: "Rabba - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/6.jpg"},
-    {songName: "Sakhiyaan - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/7.jpg"},
-    {songName: "Bhula Dena - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/8.jpg"},
-    {songName: "Tumhari Kasam - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/9.jpg"},
-    {songName: "Na Jaana - Salam-e-Ishq", filePath: "songs/4.mp3", coverPath: "covers/10.jpg"},
+    {songName: "FairyTail", filePath: "englishSongs/Fairytale.mp3", coverPath: "englishCovers/fairytail.jpeg"},
+    {songName: "RedBaron-Sabaton", filePath: "englishSongs/rb.mp3", coverPath: "englishCovers/rb.jpeg"},
+    {songName: "I told you long ago", filePath: "englishSongs/itoldyou.mp3", coverPath: "englishCovers/itoldyou.jpeg"},
+    {songName: "Hoist The color-POTC", filePath: "englishSongs/hoist.mp3", coverPath: "englishCovers/hoist.jpeg"},
+    {songName: "Davy Jones-POTC", filePath: "englishSongs/davy.mp3", coverPath: "englishCovers/davy.jpeg"},
+    {songName: "Beethove's 5th Symphony", filePath: "englishSongs/beethovens.mp3", coverPath: "englishCovers/bethovens.jpeg"},
+    {songName: "Lay All Your Love-ABBA", filePath: "englishSongs/ABBA.mp3", coverPath: "englishCovers/ABBA.jpg"},
+    {songName: "Bella Ciao", filePath: "englishSongs/Bella.mp3", coverPath: "englishCovers/bella.jpeg"},
+    {songName: "Faded", filePath: "englishSongs/faded.mp3", coverPath: "englishCovers/faded.jpeg"},
+    {songName: "Alone", filePath: "englishSongs/alone.mp3", coverPath: "englishCovers/alone.jpeg"},
 ]
 
 songItems.forEach((element, i)=>{ 
@@ -63,7 +63,7 @@ Array.from(document.getElementsByClassName('songItemPlay')).forEach((element)=>{
         songIndex = parseInt(e.target.id);
         e.target.classList.remove('fa-play-circle');
         e.target.classList.add('fa-pause-circle');
-        audioElement.src = `songs/${songIndex+1}.mp3`;
+        audioElement.src = `englishSongs/${songIndex+1}.mp3`;
         masterSongName.innerText = songs[songIndex].songName;
         audioElement.currentTime = 0;
         audioElement.play();
@@ -80,7 +80,7 @@ document.getElementById('next').addEventListener('click', ()=>{
     else{
         songIndex += 1;
     }
-    audioElement.src = `songs/${songIndex+1}.mp3`;
+    audioElement.src = `englishSongs/${songIndex+1}.mp3`;
     masterSongName.innerText = songs[songIndex].songName;
     audioElement.currentTime = 0;
     audioElement.play();
@@ -96,7 +96,7 @@ document.getElementById('previous').addEventListener('click', ()=>{
     else{
         songIndex -= 1;
     }
-    audioElement.src = `songs/${songIndex+1}.mp3`;
+    audioElement.src = `englishSongs/${songIndex+1}.mp3`;
     masterSongName.innerText = songs[songIndex].songName;
     audioElement.currentTime = 0;
     audioElement.play();
