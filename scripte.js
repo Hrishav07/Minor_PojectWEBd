@@ -1,6 +1,6 @@
 console.log("Welcome to Sargam");
 let songIndex = 0;
-let audioElement = new Audio('englishSongs/Fairytale.mp3');
+let audioElement = new Audio('englishSongs/1.mp3');
 let masterPlay = document.getElementById('masterPlay');
 let myProgressBar = document.getElementById('myProgressBar');
 let gif = document.getElementById('gif');
@@ -8,16 +8,16 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "FairyTail", filePath: "englishSongs/Fairytale.mp3", coverPath: "englishCovers/fairytail.jpeg"},
-    {songName: "RedBaron-Sabaton", filePath: "englishSongs/rb.mp3", coverPath: "englishCovers/rb.jpeg"},
-    {songName: "I told you long ago", filePath: "englishSongs/itoldyou.mp3", coverPath: "englishCovers/itoldyou.jpeg"},
-    {songName: "Hoist The color-POTC", filePath: "englishSongs/hoist.mp3", coverPath: "englishCovers/hoist.jpeg"},
-    {songName: "Davy Jones-POTC", filePath: "englishSongs/davy.mp3", coverPath: "englishCovers/davy.jpeg"},
-    {songName: "Beethove's 5th Symphony", filePath: "englishSongs/beethovens.mp3", coverPath: "englishCovers/bethovens.jpeg"},
-    {songName: "Lay All Your Love-ABBA", filePath: "englishSongs/ABBA.mp3", coverPath: "englishCovers/ABBA.jpg"},
-    {songName: "Bella Ciao", filePath: "englishSongs/Bella.mp3", coverPath: "englishCovers/bella.jpeg"},
-    {songName: "Faded", filePath: "englishSongs/faded.mp3", coverPath: "englishCovers/faded.jpeg"},
-    {songName: "Alone", filePath: "englishSongs/alone.mp3", coverPath: "englishCovers/alone.jpeg"},
+    {songName: "FairyTail", filePath: "englishSongs/1.mp3", coverPath: "englishCovers/1.jpeg"},
+    {songName: "RedBaron-Sabaton", filePath: "englishSongs/2.mp3", coverPath: "englishCovers/2.jpeg"},
+    {songName: "I told you long ago", filePath: "englishSongs/3.mp3", coverPath: "englishCovers/3.jpeg"},
+    {songName: "Hoist The color-POTC", filePath: "englishSongs/4.mp3", coverPath: "englishCovers/4.jpeg"},
+    {songName: "Davy Jones-POTC", filePath: "englishSongs/5.mp3", coverPath: "englishCovers/5.jpeg"},
+    {songName: "Beethoven's 5th Symphony", filePath: "englishSongs/6.mp3", coverPath: "englishCovers/6.jpeg"},
+    {songName: "Lay All Your Love-ABBA", filePath: "englishSongs/7.mp3", coverPath: "englishCovers/7.jpg"},
+    {songName: "Bella Ciao", filePath: "englishSongs/8.mp3", coverPath: "englishCovers/8.jpeg"},
+    {songName: "Faded", filePath: "englishSongs/9.mp3", coverPath: "englishCovers/9.jpeg"},
+    {songName: "Alone", filePath: "englishSongs/10.mp3", coverPath: "englishCovers/10.jpeg"},
 ]
 
 songItems.forEach((element, i)=>{ 
