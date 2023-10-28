@@ -14,7 +14,7 @@ let songs = [
     {songName: "Tujhse Naraz Nahin Zindagi", filePath: "classicSongs/4.mp3", coverPath: "classicCovers/4.jpeg"},
     {songName: "Tere Bina Zindagi Se", filePath: "classicSongs/5.mp3", coverPath: "classicCovers/5.jpeg"},
     {songName: "Ae Kash Ke Hum", filePath: "classicSongs/6.mp3", coverPath: "classicCovers/6.jpeg"},
-    {songName: "Aap Ki Naazroon Nw", filePath: "classicSongs/7.mp3", coverPath: "classicCovers/7.jpeg"},
+    {songName: "Aap Ki Nazroon Nw", filePath: "classicSongs/7.mp3", coverPath: "classicCovers/7.jpeg"},
     {songName: "Mere Mehboob ", filePath: "classicSongs/8.mp3", coverPath: "classicCovers/8.jpeg"},
     {songName: "O Mere Dil Ke Chain", filePath: "classicSongs/9.mp3", coverPath: "classicCovers/9.jpeg"},
     {songName: "Yeh Mera Deewanapan Hai", filePath: "classicSongs/10.mp3", coverPath: "classicCovers/10.jpeg"},
