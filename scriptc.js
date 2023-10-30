@@ -8,7 +8,7 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Jaane Woh Kaise", filePath: "classicSongs/1.mp3", coverPath: "classicCovers/1.jpeg"},
+    {songName: "Tera Milna Do Pal Ka", filePath: "classicSongs/1.mp3", coverPath: "classicCovers/1.jpeg"},
     {songName: "Lag Ja Gale", filePath: "classicSongs/2.mp3", coverPath: "classicCovers/2.jpeg"},
     {songName: "Ek Pyaar ke Nagma Hai", filePath: "classicSongs/3.mp3", coverPath: "classicCovers/3.jpeg"},
     {songName: "Tujhse Naraz Nahin Zindagi", filePath: "classicSongs/4.mp3", coverPath: "classicCovers/4.jpeg"},
