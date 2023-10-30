@@ -9,11 +9,11 @@ let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
     {songName: "FairyTail", filePath: "englishSongs/1.mp3", coverPath: "englishCovers/1.jpeg"},
-    {songName: "RedBaron-Sabaton", filePath: "englishSongs/2.mp3", coverPath: "englishCovers/2.jpeg"},
+    {songName: "Attention- Charlie Puth", filePath: "englishSongs/2.mp3", coverPath: "englishCovers/2.jpeg"},
     {songName: "I told you long ago", filePath: "englishSongs/3.mp3", coverPath: "englishCovers/3.jpeg"},
     {songName: "Hoist The color-POTC", filePath: "englishSongs/4.mp3", coverPath: "englishCovers/4.jpeg"},
     {songName: "Davy Jones-POTC", filePath: "englishSongs/5.mp3", coverPath: "englishCovers/5.jpeg"},
-    {songName: "Beethoven's 5th Symphony", filePath: "englishSongs/6.mp3", coverPath: "englishCovers/6.jpeg"},
+    {songName: "Let Me Down Slowly", filePath: "englishSongs/6.mp3", coverPath: "englishCovers/6.jpeg"},
     {songName: "Lay All Your Love-ABBA", filePath: "englishSongs/7.mp3", coverPath: "englishCovers/7.jpg"},
     {songName: "Bella Ciao", filePath: "englishSongs/8.mp3", coverPath: "englishCovers/8.jpeg"},
     {songName: "Faded", filePath: "englishSongs/9.mp3", coverPath: "englishCovers/9.jpeg"},

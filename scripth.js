@@ -9,11 +9,11 @@ let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
     {songName: "Haan Mein Galat", filePath: "hindiSongs/1.mp3", coverPath: "hindiCovers/1.jpeg"},
-    {songName: "Chaleya", filePath: "hindiSongs/2.mp3", coverPath: "hindiCovers/2.jpeg"},
+    {songName: "Mera Pyaar Tera Pyaar", filePath: "hindiSongs/2.mp3", coverPath: "hindiCovers/2.jpeg"},
     {songName: "Phir Aur Kya Chahiye", filePath: "hindiSongs/3.mp3", coverPath: "hindiCovers/3.jpeg"},
-    {songName: "Tere Vaaste", filePath: "hindiSongs/4.mp3", coverPath: "hindiCovers/4.jpeg"},
+    {songName: "Challe Ana", filePath: "hindiSongs/4.mp3", coverPath: "hindiCovers/4.jpeg"},
     {songName: "Raatan Laambiyan", filePath: "hindiSongs/5.mp3", coverPath: "hindiCovers/5.jpeg"},
-    {songName: "Delhi Belly", filePath: "hindiSongs/6.mp3", coverPath: "hindiCovers/6.jpeg"},
+    {songName: "Tujhe Kitna Chahne Lage Hum", filePath: "hindiSongs/6.mp3", coverPath: "hindiCovers/6.jpeg"},
     {songName: "Mast Magan", filePath: "hindiSongs/7.mp3", coverPath: "hindiCovers/7.jpeg"},
     {songName: "Ek Tarfa", filePath: "hindiSongs/8.mp3", coverPath: "hindiCovers/8.jpeg"},
     {songName: "Mujhe Peene Do", filePath: "hindiSongs/9.mp3", coverPath: "hindiCovers/9.jpeg"},
