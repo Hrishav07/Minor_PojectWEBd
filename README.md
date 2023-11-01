@@ -1,7 +1,7 @@
 Minor Project of 5th Semester in Web Development.
 Project Title: Sargam Music App
 Project Description:
-The Sargam Music App is a web-based music application designed to provide users with a seamless and interactive music listening experience. This project will leverage HTML5, CSS3 with Bootstrap, and JavaScript to create a feature-rich music app that allows users to explore, discover, and enjoy their favorite music.
+The Sargam Music App is a web-based music application designed to provide users with a some of the most famous in the respective genres and interactive music listening experience. This project will leverage HTML5, CSS3 with Bootstrap, and JavaScript to create a feature-rich music app that allows users to explore, discover, and enjoy their favorite music.
 
 Project Overview
 The Sargam Music Website is a web development project that allows users to explore and enjoy music across various genres. It provides a user-friendly interface for easy navigation and listening to music tracks. This readme provides an overview of the navigation menu and project structure.
